@@ -7,7 +7,7 @@
   margin-right: auto;
   margin-top: 28px;
   min-width: 288px;
-  min-height: 52px;
+  max-height: 52px;
 }
 
 @media (max-width: 1024px) {
@@ -26,6 +26,6 @@
   .header {
     margin-top: 16px;
     width: calc(100% - 32px);
-    min-height: 42px;
+    max-height: 42px;
   }
 }

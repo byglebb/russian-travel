@@ -1,4 +1,4 @@
-@import url(../vendors/normalize.css);
+@import url(../vendor/normalize.css);
 
 @import url(../blocks/body/body.css);
 @import url(../blocks/page/page.css);
@@ -11,11 +11,4 @@
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 @import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
 
-
-@font-face {
-  font-family: 'Inter';
-  font-style:  normal;
-  src: local('Inter-Regular'),
-    url("Inter-Regular.woff2?v=3.19") format("woff2"),
-    url("Inter-Regular.woff?v=3.19") format("woff");
-}
+@import url(../vendor/fonts.css);
