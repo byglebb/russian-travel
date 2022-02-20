@@ -22,7 +22,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 425px) {
   .header {
     margin-top: 16px;
     width: calc(100% - 32px);
