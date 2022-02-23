@@ -1,0 +1,38 @@
+.place {
+  display: grid;
+  max-width: 100%;
+  color: white;
+}
+
+@media (min-width: 1280px) {
+  .place {
+    row-gap: 48px;
+    column-gap: 40px;
+    grid-template-columns: fit-content(460px) fit-content(484px);
+    grid-template-rows: minmax(min-content, max-content) minmax(min-content, max-content);
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .place {
+
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .place {
+
+  }
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+  .place {
+
+  }
+}
+
+@media (max-width: 424px) {
+  .place {
+
+  }
+}
