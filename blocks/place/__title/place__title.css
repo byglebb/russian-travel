@@ -30,6 +30,8 @@
   .place__title {
     font-size: 32px;
     line-height: 109%;
+    margin-left: 16px;
+    margin-right: 16px;
   }
 }
 
@@ -37,5 +39,7 @@
   .place__title {
     font-size: 32px;
     line-height: 109%;
+    margin-left: 16px;
+    margin-right: 16px;
   }
 }
