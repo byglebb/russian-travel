@@ -10,6 +10,8 @@
     max-width: calc(100% - 296px);
     min-height: 3392px;
     margin-top: 92px;
+    gap: 80px;
+    margin-bottom: 92px;
     /* grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 16px; */
@@ -21,6 +23,8 @@
     max-width: calc(100% - 96px);
     min-height: 3292px;
     margin-top: 92px;
+    gap: 80px;
+    margin-bottom: 92px;
     /* grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
     gap: 14px; */
@@ -32,6 +36,8 @@
     max-width: calc(100% - 48px);
     min-height: 2808px;
     margin-top: 88px;
+    gap: 73px;
+    margin-bottom: 90px;
     /* grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, 1fr);
     gap: 16px; */
@@ -43,6 +49,8 @@
     max-width: 100%;
     min-height: 5177px;
     margin-top: 64px;
+    gap: 50px;
+    margin-bottom: 66px;
     /* grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(12, 1fr);
     gap: 12px; */
@@ -54,6 +62,8 @@
     max-width: 100%;
     min-height: 5177px;
     margin-top: 64px;
+    gap: 50px;
+    margin-bottom: 66px;
     /* grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(12, 1fr);
     gap: 12px; */
