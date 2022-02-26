@@ -34,7 +34,7 @@
 @media (min-width: 768px) and (max-width: 1023px) {
   .places {
     max-width: calc(100% - 48px);
-    min-height: 2808px;
+    min-height: 2300px;
     margin-top: 88px;
     gap: 73px;
     margin-bottom: 90px;
@@ -47,7 +47,7 @@
 @media (min-width: 425px) and (max-width: 767px) {
   .places {
     max-width: 100%;
-    min-height: 5177px;
+    min-height: 4000px;
     margin-top: 64px;
     gap: 50px;
     margin-bottom: 66px;
@@ -60,7 +60,7 @@
 @media (max-width: 424px) {
   .places {
     max-width: 100%;
-    min-height: 5177px;
+    min-height: 4000px;
     margin-top: 64px;
     gap: 50px;
     margin-bottom: 66px;
