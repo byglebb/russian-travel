@@ -17,7 +17,7 @@
   text-decoration: underline;
 } */
 
-@media (max-width: 425px) {
+@media (max-width: 767px) {
   .header__lang-link {
     font-size: 18px;
     line-height: 20px;

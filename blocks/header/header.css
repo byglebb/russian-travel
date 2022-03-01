@@ -10,22 +10,22 @@
   max-height: 52px;
 }
 
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
   .header {
     width: calc(100% - 96px);
   }
-}
+} */
 
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   .header {
-    width: calc(100% - 48px);
+    max-width: calc(100% - 48px);
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 767px) {
   .header {
     margin-top: 16px;
-    width: calc(100% - 32px);
+    max-width: calc(100% - 32px);
     max-height: 42px;
   }
 }
