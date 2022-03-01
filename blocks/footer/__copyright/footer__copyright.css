@@ -6,41 +6,21 @@
   font-size: 14px;
   line-height: 16px;
   color: white;
-  width: 100%;
   align-self: flex-end;
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 768px) {
   .footer__copyright {
     text-align: right;
-    /* justify-self: end; */
+    position: absolute;
+    right: 0;
+    bottom: 0;
   }
 }
 
-@media (min-width: 1024px) and (max-width: 1279px) {
+@media (max-width: 767px) {
   .footer__copyright {
-    text-align: right;
-    /* justify-self: end; */
-  }
-}
-
-@media (min-width: 768px) and (max-width: 1023px) {
-  .footer__copyright {
-    text-align: right;
-    /* justify-self: end; */
-  }
-}
-
-@media (min-width: 425px) and (max-width: 767px) {
-  .footer__copyright {
-    margin-top: 16px;
-    line-height: 14px;
-  }
-}
-
-@media (max-width: 424px) {
-  .footer__copyright {
-    margin-top: 16px;
+    margin-top: 48px;
     line-height: 14px;
   }
 }

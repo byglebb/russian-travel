@@ -1,0 +1,11 @@
+.footer__nav {
+  display: flex;
+  gap: 18px;
+}
+
+@media (max-width: 767px) {
+  .footer__nav {
+    flex-direction: column;
+    gap: 32px;
+  }
+}
