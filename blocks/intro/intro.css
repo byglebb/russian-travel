@@ -37,15 +37,7 @@
   }
 }
 
-@media (min-width: 425px) and (max-width: 767px){
-  .intro {
-    max-width: calc(100% - 32px);
-    max-height: 754px;
-    margin-top: 86px;
-  }
-}
-
-@media (max-width: 424px) {
+@media (max-width: 767px) {
   .intro {
     max-width: calc(100% - 32px);
     max-height: 754px;
