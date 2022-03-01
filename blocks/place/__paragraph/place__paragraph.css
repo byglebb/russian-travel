@@ -5,14 +5,7 @@
   font-weight: normal;
 }
 
-@media (min-width: 1280px) {
-  .place__paragraph {
-    font-size: 18px;
-    line-height: 163%;
-  }
-}
-
-@media (min-width: 1024px) and (max-width: 1279px) {
+@media (min-width: 1024px) {
   .place__paragraph {
     font-size: 18px;
     line-height: 163%;
@@ -26,14 +19,7 @@
   }
 }
 
-@media (min-width: 425px) and (max-width: 767px) {
-  .place__paragraph {
-    font-size: 16px;
-    line-height: 163%;
-  }
-}
-
-@media (max-width: 424px) {
+@media (max-width: 767px) {
   .place__paragraph {
     font-size: 16px;
     line-height: 163%;

@@ -3,14 +3,7 @@
   justify-self: start;
 }
 
-@media (min-width: 425px) and (max-width: 767px) {
-  .place__website {
-    margin-left: 16px;
-    margin-right: 16px;
-  }
-}
-
-@media (max-width: 424px) {
+@media (max-width: 767px) {
   .place__website {
     margin-left: 16px;
     margin-right: 16px;
