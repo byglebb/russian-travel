@@ -6,26 +6,28 @@
   font-size: 14px;
   line-height: 16px;
   color: white;
+  width: 100%;
+  align-self: flex-end;
 }
 
 @media (min-width: 1280px) {
   .footer__copyright {
     text-align: right;
-    justify-self: end;
+    /* justify-self: end; */
   }
 }
 
 @media (min-width: 1024px) and (max-width: 1279px) {
   .footer__copyright {
     text-align: right;
-    justify-self: end;
+    /* justify-self: end; */
   }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
   .footer__copyright {
     text-align: right;
-    justify-self: end;
+    /* justify-self: end; */
   }
 }
 
