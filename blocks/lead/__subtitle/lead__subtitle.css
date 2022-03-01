@@ -10,16 +10,7 @@
   margin-top: 32px;
 }
 
-@media (min-width: 425px) and (max-width: 767px) {
-  .lead__subtitle {
-    width: 288px;
-    height: 40px;
-    font-size: 16px;
-    line-height: 20px;
-  }
-}
-
-@media (max-width: 424px) {
+@media (max-width: 767px) {
   .lead__subtitle {
     margin-top: 16px;
     width: 288px;

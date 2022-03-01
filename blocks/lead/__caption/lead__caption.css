@@ -6,15 +6,10 @@
   letter-spacing: 1.5px;
   text-transform: uppercase;
   margin-top: 8px;
+  align-self: baseline;
 }
 
-@media (min-width: 1280px) {
-  .lead__caption {
-    align-self: flex-start;
-  }
-}
-
-@media (min-width: 1024px) and (max-width: 1279px) {
+@media (min-width: 1024px) {
   .lead__caption {
     align-self: flex-start;
   }
@@ -22,21 +17,12 @@
 
 @media (min-width: 768px) and (max-width: 1023px) {
   .lead__caption {
-    align-self: baseline;
     margin-left: 24px;
   }
 }
 
-@media (min-width: 425px) and (max-width: 767px) {
+@media (max-width: 767px) {
   .lead__caption {
-    align-self: baseline;
-    margin-left: 16px;
-  }
-}
-
-@media (max-width: 424px) {
-  .lead__caption {
-    align-self: baseline;
     margin-left: 16px;
   }
 }
