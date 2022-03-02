@@ -12,7 +12,7 @@
     min-width: 690px;
     max-width: 690px;
     max-height: 429px;
-    margin-top: 114px;
+    margin-top: 92px;
     margin-left: 148px;
     margin-right: 442px;
   }
@@ -23,7 +23,7 @@
     min-width: 690px;
     max-width: 690px;
     max-height: 429px;
-    margin-top: 114px;
+    margin-top: 92px;
     margin-left: 48px;
     margin-right: 286px;
   }
@@ -33,7 +33,7 @@
   .intro {
     max-width: calc(100% - 48px);
     max-height: 429px;
-    margin-top: 110px;
+    margin-top: 88px;
   }
 }
 
@@ -41,6 +41,6 @@
   .intro {
     max-width: calc(100% - 32px);
     max-height: 754px;
-    margin-top: 86px;
+    margin-top: 64px;
   }
 }
